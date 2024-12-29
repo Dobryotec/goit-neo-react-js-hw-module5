@@ -1,0 +1,57 @@
+.link {
+  font-size: 25px;
+  outline: transparent;
+  transition: all 0.3s ease;
+}
+.active {
+  color: #b31c1c;
+  font-size: 30px;
+}
+.nav {
+  display: flex;
+  align-items: baseline;
+  gap: 5px;
+}
+
+@media screen and (min-width: 480px) {
+  .link {
+    font-size: 28px;
+  }
+  .active {
+    font-size: 33px;
+  }
+  .nav {
+    gap: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .link {
+    font-size: 31px;
+  }
+  .active {
+    font-size: 36px;
+  }
+  .nav {
+    gap: 15px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .link {
+    font-size: 36px;
+  }
+  .active {
+    font-size: 42px;
+  }
+  .nav {
+    gap: 15px;
+  }
+}
+
+.link:hover,
+.link:focus-visible {
+  color: #ff8c00;
+  text-shadow: 0 4px 8px #ff8c00;
+  transform: scale(1.1);
+}

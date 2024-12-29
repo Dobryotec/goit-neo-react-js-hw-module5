@@ -1,0 +1,28 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.item {
+  color: #ff8c00;
+  font-size: 20px;
+  transition: all 0.3s ease;
+}
+
+.item:hover {
+  color: #d4af37;
+  text-shadow: 0 2px 4px rgba(212, 175, 55, 0.6);
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  .item {
+    font-size: 22px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .item {
+    font-size: 24px;
+  }
+}

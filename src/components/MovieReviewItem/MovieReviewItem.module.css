@@ -1,0 +1,20 @@
+.review-author {
+  font-weight: bold;
+  font-size: 18px;
+  color: #333;
+}
+
+.review-description {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.5;
+}
+
+@media screen and (min-width: 640px) {
+  .review-author {
+    font-size: 20px;
+  }
+  .review-description {
+    font-size: 18px;
+  }
+}
